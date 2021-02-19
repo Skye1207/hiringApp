@@ -1,0 +1,40 @@
+{% extends 'recruit/base.html' %}
+
+{% block content %}
+<div class="col-md-9">
+  	<div class="box">
+  		<div class="box-header">
+  			<center>
+  				<h2>Application</h2>
+  				<p class="text-muted">
+  					Please enter fields below as they appear on CV
+  				</p>
+  			</center>
+  			<form action="/home/" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+  				<div class="form-group">
+  					<label>Responsibilities</label>
+					<br>
+  					<textarea name="R" class="form-control" placeholder="Type message"></textarea>
+  				</div>
+				<br>
+                <div class="form-group">
+  					<label>Technical skills</label>
+					<br>
+  					<textarea name="T" class="form-control" placeholder="Type message"></textarea>
+  				</div>
+				<br>
+                <div class="form-group">
+  					<label>Soft skills</label>
+					<br>
+  					<textarea name="S" class="form-control" placeholder="Type message"></textarea>
+  				</div>
+				<br>
+  				<div class="text-center">
+						<button type="submit" name="submit" class="btn btn-success">Submit</button>
+  				</div>
+  			</form>
+  		</div>
+  	</div>
+  </div>
+{% endblock %}
