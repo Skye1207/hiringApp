@@ -1,6 +1,3 @@
-The standardization of a CV document will be enabled by forms that require the user to enter information 
-in the following format. This is however, the requirements document which is also standard for a job advertisement. 
-
 Responsibilities:
 
 
@@ -69,30 +66,3 @@ Soft skill requirements:
 	Creativity, critical thinking, problem solving
 	Time management
 	Confidence
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
